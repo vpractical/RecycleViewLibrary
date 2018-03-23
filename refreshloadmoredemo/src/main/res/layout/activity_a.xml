@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <com.ywb.refreshloadmorelibrary.views.SwipeLayout
+        android:id="@+id/swipe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!--<include-->
+            <!--layout="@layout/header"-->
+            <!--/>-->
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="11dp">
+
+        </android.support.v7.widget.RecyclerView>
+
+        <!--<include-->
+            <!--layout="@layout/footer"-->
+            <!--/>-->
+
+    </com.ywb.refreshloadmorelibrary.views.SwipeLayout>
+
+</LinearLayout>
